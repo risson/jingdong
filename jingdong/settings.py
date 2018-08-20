@@ -66,6 +66,8 @@ COOKIES_ENABLED = False
 ITEM_PIPELINES = {
    'jingdong.pipelines.JingdongPipeline': 300,
 }
+MONGO_URI = 'mongodb://localhost:27017'
+MONGO_DATABASE = 'jd-sandbox'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
